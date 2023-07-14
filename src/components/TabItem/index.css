@@ -1,0 +1,27 @@
+.tab-item-container {
+  text-decoration: underline;
+  border-bottom: 2px solid #bdc3c9;
+}
+.tab-btn {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #7b8794;
+  font-weight: 500;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.active-tab-btn {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    font-size: 16px;
+    margin-right: 24px;
+  }
+}
